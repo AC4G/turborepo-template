@@ -1,0 +1,30 @@
+[repo]
+name = "turborepo-template"
+version = "1.0.0"
+
+# * stands for the specific project or package name, e.g. [projects.auth]
+# Uncomment this section to specify the structure and permissions
+# for plugins. The `*` acts as a wildcard for all plugins by default.
+# You can define allowed actions (e.g., "create", "extend") or
+# override default versions for specific plugins. This controls
+# how the CLI interacts with plugins and what operations are permitted.
+
+# Defines the projects in the monorepo
+# [projects.*]
+# path = "apps/*"
+# language = "rust"
+# permissions = {
+#    * = ["create", "extend"],
+# }
+
+# Defines the packages in the monorepo
+# [packages.*]
+# path = "packages/*"
+# language = "rust"
+# permissions = {
+#    * = ["create", "extend"],
+# }
+
+# Defines the plugins in the monorepo
+# [plugins]
+# * = { version = "*" }
