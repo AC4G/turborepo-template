@@ -1,6 +1,7 @@
 [repo]
 name = "turborepo-template"
 version = "1.0.0"
+template = "turborepo"
 
 # * stands for the specific project or package name, e.g. [projects.auth]
 # Uncomment this section to specify the structure and permissions
